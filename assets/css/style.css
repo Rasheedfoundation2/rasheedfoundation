@@ -44,7 +44,9 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&amp;family=Roboto:wght@300;400&amp;display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&amp;family=Roboto:wght@300;400&amp;display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
@@ -66,7 +68,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'El messiri';
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -128,7 +130,7 @@ h6 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'El Messiri';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -852,7 +854,7 @@ img {
 }
 
 .digimax-preloader p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'El Messiri';
     letter-spacing: 8px;
     color: #3b3b3b;
 }
@@ -2226,7 +2228,7 @@ body.dark,
     transform: translateY(-50%);
     font-size: 18px;
     font-weight: 900;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'El Messiri';
 }
 
 .card-header .btn::after {
@@ -2346,7 +2348,7 @@ body.dark,
     position: absolute;
     content: '\f101';
     font-weight: 900;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'El Messiri';
     opacity: 0;
     visibility: hidden;
     top: 50%;
@@ -3005,4 +3007,28 @@ body.dark,
     transform: translateY(-10px);
     -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.12);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.12);
+}
+
+/* ******************************
+:: 26.0 colun property on about section 
+****************************** */
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
 }

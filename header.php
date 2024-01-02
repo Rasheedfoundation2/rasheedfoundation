@@ -52,10 +52,10 @@ $latitude = "$tr[latitude]";
     $follow_text = "$r[follow_text]";
     ?>
     <!-- Title  -->
-    <title>Think Biz - <?php print $site_title ?></title>
+    <title>rasheed-foundation- <?php print $site_title ?></title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/White.png">
 
     <!-- ***** All CSS Files ***** -->
 
@@ -134,10 +134,11 @@ $latitude = "$tr[latitude]";
                     $ufile = "$tr[ufile]";
                     ?>
 
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-regular" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="brand-logo">
-                        <img class="navbar-brand-sticky" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="sticky brand-logo">
+<a class="navbar-brand" href="index.html">
+                        <img class="navbar-brand-regular" style= "max-width: 200px; height: auto;" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="brand-logo">
+                        <img class="navbar-brand-sticky" style= "max-width: 150px; height: auto;" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="sticky brand-logo">
                     </a>
+
                     <div class="ml-auto"></div>
                     <!-- Navbar -->
                     <ul class="navbar-nav items">
@@ -149,10 +150,10 @@ $latitude = "$tr[latitude]";
                             <a href="about" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="services" class="nav-link">Services</a>
+                            <a href="services" class="nav-link">Internship</a>
                         </li>
                         <li class="nav-item">
-                            <a href="portfolio" class="nav-link">Portfolio</a>
+                            <a href="portfolio" class="nav-link">Beginning</a>
                         </li>
 
 

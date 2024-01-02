@@ -26,7 +26,7 @@
                 <!-- Welcome Thumb -->
                 <div class="welcome-thumb-wrapper mt-5 mt-md-0">
                     <span class="welcome-thumb-1">
-                        <img class="welcome-animation d-block ml-auto" src="assets/img/welcome/thumb_1.png" alt="">
+                        <img class="welcome-animation d-block ml-auto" src="assets/img/welcome/group.jpg" alt="">
                     </span>
 
                 </div>
