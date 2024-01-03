@@ -52,10 +52,10 @@ $latitude = "$tr[latitude]";
     $follow_text = "$r[follow_text]";
     ?>
     <!-- Title  -->
-    <title>Think Biz - <?php print $site_title ?></title>
+    <title>Rasheed Foundation - <?php print $site_title ?></title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/Blue.png">
 
     <!-- ***** All CSS Files ***** -->
 
@@ -78,15 +78,24 @@ $latitude = "$tr[latitude]";
                 <div class="spinner"></div>
                 <!-- Loader -->
                 <div class="loader">
-                    <span data-text-preloader="T" class="animated-letters">T</span>
+                    <span data-text-preloader="R" class="animated-letters">R</span>
+                    <span data-text-preloader="a" class="animated-letters">a</span>
+                    <span data-text-preloader="s" class="animated-letters">s</span>
                     <span data-text-preloader="h" class="animated-letters">h</span>
-                    <span data-text-preloader="i" class="animated-letters">i</span>
-                    <span data-text-preloader="n" class="animated-letters">n</span>
-                    <span data-text-preloader="k" class="animated-letters">k</span>
+                    <span data-text-preloader="e" class="animated-letters">e</span>
+                    <span data-text-preloader="e" class="animated-letters">e</span>
+                    <span data-text-preloader="d" class="animated-letters">d</span>
                     <span>&nbsp;</span>
-                    <span data-text-preloader="B" class="animated-letters">B</span>
+                    <span data-text-preloader="F" class="animated-letters">F</span>
+                    <span data-text-preloader="o" class="animated-letters">o</span>
+                    <span data-text-preloader="u" class="animated-letters">u</span>
+                    <span data-text-preloader="n" class="animated-letters">n</span>
+                    <span data-text-preloader="d" class="animated-letters">d</span>
+                    <span data-text-preloader="a" class="animated-letters">a</span>
+                    <span data-text-preloader="t" class="animated-letters">t</span>
                     <span data-text-preloader="i" class="animated-letters">i</span>
-                    <span data-text-preloader="z" class="animated-letters">z</span>
+                    <span data-text-preloader="o" class="animated-letters">o</span>
+                    <span data-text-preloader="n" class="animated-letters">n</span>
                 </div>
                 <p class="fw-5 text-center text-uppercase">Loading</p>
             </div>
@@ -135,24 +144,23 @@ $latitude = "$tr[latitude]";
                     ?>
 
                     <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-regular" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="brand-logo">
-                        <img class="navbar-brand-sticky" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="sticky brand-logo">
+                        <img class="navbar-brand-regular" style="max-width: 140px; height: auto;" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="brand-logo">
+                        <img class="navbar-brand-sticky" style="max-width: 140px; height: auto;" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="sticky brand-logo">
                     </a>
                     <div class="ml-auto"></div>
                     <!-- Navbar -->
                     <ul class="navbar-nav items">
                         <li class="nav-item">
                             <a class="nav-link" href="home">Home </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="about" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="services" class="nav-link">Services</a>
+                            <a href="services" class="nav-link">Internship</a>
                         </li>
                         <li class="nav-item">
-                            <a href="portfolio" class="nav-link">Portfolio</a>
+                            <a href="portfolio" class="nav-link">Beginning</a>
                         </li>
 
 

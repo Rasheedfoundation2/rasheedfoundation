@@ -1,31 +1,85 @@
 <?php include "header.php";?>
-        <section class="section breadcrumb-area overlay-dark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                            <h2 class="text-white text-uppercase mb-3">Our Past Works</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
+<section class="section breadcrumb-area overlay-dark d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Breamcrumb Content -->
+                <div class="breadcrumb-content text-center">
+                    <h2 class="text-white text-uppercase mb-3">Our Past Works</h2>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
 
-                                <li class="breadcrumb-item text-white active">Our Portfolio</li>
-                            </ol>
-                        </div>
+                        <li class="breadcrumb-item text-white active">Our Portfolio</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Breadcrumb Area End ***** -->
+
+<!-- ***** Portfolio Area Start ***** -->
+<section id="portfolio" class="portfolio-area overflow-hidden ptb_100">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card fadeIn">
+                    <img src="./assets/img/OurWork/heal.jpeg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Health Camp</h5>
+                        <p class="card-text"> we believe that good health is a fundamental right that should be
+                            accessible to everyone. Unfortunately, many people in our community lack access to even the
+                            most basic healthcare services, leaving them vulnerable to illness, injury, and other health
+                            challenges.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ***** Breadcrumb Area End ***** -->
 
-     <!-- ***** Portfolio Area Start ***** -->
-     <section id="portfolio" class="portfolio-area overflow-hidden ptb_100">
-            <div class="container">
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card fadeIn">
+                    <img src="./assets/img/OurWork/ras4.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Food donation</h5>
+                        <p class="card-text"> we believe that every person deserves access to a nutritious meal,
+                            regardless of their circumstances. Sadly, hunger remains a harsh reality for many people in
+                            our community, with countless families struggling to put food on the table. </p>
+                    </div>
+                </div>
+            </div>
 
- <!-- Portfolio Items -->
-                <div class="row items portfolio-items">
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card fadeIn">
+                    <img src="./assets/img/OurWork/clot.jpeg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloth Distribution camp</h5>
+                        <p class="card-text"> we believe that every person deserves the access to clean, comfortable
+                            clothing, regardless of their circumstances. Unfortunately, many people in our community
+                            lack access to even the most basic necessities, including clothing. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="horizontal-paragraph">
+                    <p class="mb-0"> Donating groceries and eatables to the poor and needy can have a significant impact
+                        on their lives. Involve your friends and family by organizing a food drive or donation campaign
+                        to collect non-perishable food items. Set up a donation station with posters and banners to
+                        spread the word on social media and encourage others to join your cause. Share stories of people
+                        who have benefited from your donations, and volunteer at food banks or soup kitchens to
+                        distribute the donated groceries and meals to the needy. Every small act of kindness counts, and
+                        by donating groceries and eatables, you can help alleviate hunger and improve the lives of those
+                        in need. </p>
+                </div>
+            </div>
+        </div>
 
-                <?php
+        <!-- Portfolio Items -->
+        <div class="row items portfolio-items">
+
+            <?php
 				   $q="SELECT * FROM  portfolio ORDER BY id DESC";
 
 
@@ -37,58 +91,63 @@ while($ro = mysqli_fetch_array($r123))
 	$id="$ro[id]";
 	$port_title="$ro[port_title]";
     $port_desc="$ro[port_desc]";
+    $port_detail="$ro[port_detail]";
     $ufile="$ro[ufile]";
 
-print "
-<div class='col-12 col-sm-6 col-lg-4 portfolio-item' data-groups='['marketing','development']'>
-<!-- Single Case Studies -->
-<div class='single-case-studies'>
-    <!-- Case Studies Thumb -->
-    <a href='portdetail.php?id=$id'>
-        <img src='dashboard/uploads/portfolio/$ufile' alt=''>
-    </a>
-    <!-- Case Studies Overlay -->
-    <a href='portdetail.php?id=$id' class='case-studies-overlay'>
-        <!-- Overlay Text -->
-        <span class='overlay-text text-center p-3'>
-            <h3 class='text-white mb-3'>$port_title</h3>
-            <p class='text-white'>$port_desc.</p>
-        </span>
-    </a>
-</div>
-</div>
-";
+// print "
+// <div class='col-12 col-sm-6 col-lg-4 portfolio-item' data-groups='['marketing','development']'>
+// <!-- Single Case Studies -->
+// <div class='single-case-studies'>
+//     <!-- Case Studies Thumb -->
+//     <a href='portdetail.php?id=$id'>
+//         <img src='dashboard/uploads/portfolio/$ufile' alt=''>
+//     </a>
+//     <!-- Case Studies Overlay -->
+//     <a href='portdetail.php?id=$id' class='case-studies-overlay'>
+//         <!-- Overlay Text -->
+//         <span class='overlay-text text-center p-3'>
+//             <h3 class='text-white mb-3'>$port_title</h3>
+//             <p class='text-white'>$port_desc.</p>
+//         </span>
+//     </a>
+// </div>
+// </div>
+// ";
 }
 ?>
 
-                </div>
+        </div>
 
+    </div>
+</section>
+<!-- ***** Portfolio Area End ***** -->
+
+<!-- ***** Review Area Start ***** -->
+<section id="review" class="section review-area bg-overlay ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-7">
+                <!-- Section Heading -->
+
+
+                <div class="section-heading text-center">
+                    <h2 class="text-white">
+                        <?php print $test_title; ?>
+                    </h2>
+                    <p class="text-white d-none d-sm-block mt-4">
+                        <?php print $test_text;?>
+                    </p>
+                </div>
             </div>
-        </section>
-        <!-- ***** Portfolio Area End ***** -->
-
-        <!-- ***** Review Area Start ***** -->
-        <section id="review" class="section review-area bg-overlay ptb_100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-7">
-                        <!-- Section Heading -->
-
-
-                        <div class="section-heading text-center">
-                            <h2 class="text-white"><?php print $test_title; ?></h2>
-                            <p class="text-white d-none d-sm-block mt-4"><?php print $test_text;?></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Client Reviews -->
-                    <div class="client-reviews owl-carousel">
-                        <!-- Single Review -->
+        </div>
+        <div class="row">
+            <!-- Client Reviews -->
+            <div class="client-reviews owl-carousel">
+                <!-- Single Review -->
 
 
 
-                        <?php
+                <?php
 				   $q="SELECT * FROM  testimony ORDER BY id DESC LIMIT 6";
 
 
@@ -132,52 +191,62 @@ print "
 ";
 }
 ?>
-                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Review Area End ***** -->
+
+<!--====== Contact Area Start ======-->
+<section id="contact" class="contact-area ptb_100">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-lg-5">
+                <!-- Section Heading -->
+                <div class="section-heading text-center mb-3">
+                    <h2>
+                        <?php print $contact_title ?>
+                    </h2>
+                    <p class="d-none d-sm-block mt-4">
+                        <?php print $contact_text ?>
+                    </p>
+                </div>
+                <!-- Contact Us -->
+                <div class="contact-us">
+                    <ul>
+                        <!-- Contact Info -->
+                        <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3">
+                            <span><i class="fas fa-mobile-alt fa-3x"></i></span>
+                            <a class="d-block my-2" href="tel:<?php print $phone1 ?>">
+                                <h3>
+                                    <?php print $phone1 ?>
+                                </h3>
+                            </a>
+
+                        </li>
+                        <!-- Contact Info -->
+                        <li class="contact-info color-3 bg-hover active hover-bottom text-center p-5 m-3">
+                            <span><i class="fas fa-envelope-open-text fa-3x"></i></span>
+                            <a class="d-none d-sm-block my-2" href="mailto:<?php print $email1 ?>">
+                                <h3>
+                                    <?php print $email1 ?>
+                                </h3>
+                            </a>
+                            <a class="d-block d-sm-none my-2" href="mailto:<?php print $email1 ?>">
+                                <h3>
+                                    <?php print $email1 ?>
+                                </h3>
+                            </a>
+
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <!-- ***** Review Area End ***** -->
-
-        <!--====== Contact Area Start ======-->
-        <section id="contact" class="contact-area ptb_100">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-lg-5">
-                        <!-- Section Heading -->
-                        <div class="section-heading text-center mb-3">
-                            <h2><?php print $contact_title ?></h2>
-                            <p class="d-none d-sm-block mt-4"><?php print $contact_text ?></p>
-                        </div>
-                        <!-- Contact Us -->
-                        <div class="contact-us">
-                            <ul>
-                                <!-- Contact Info -->
-                                <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3">
-                                    <span><i class="fas fa-mobile-alt fa-3x"></i></span>
-                                    <a class="d-block my-2" href="tel:<?php print $phone1 ?>">
-                                        <h3><?php print $phone1 ?></h3>
-                                    </a>
-
-                                </li>
-                                <!-- Contact Info -->
-                                <li class="contact-info color-3 bg-hover active hover-bottom text-center p-5 m-3">
-                                    <span><i class="fas fa-envelope-open-text fa-3x"></i></span>
-                                    <a class="d-none d-sm-block my-2" href="mailto:<?php print $email1 ?>">
-                                        <h3><?php print $email1 ?></h3>
-                                    </a>
-                                    <a class="d-block d-sm-none my-2" href="mailto:<?php print $email1 ?>">
-                                        <h3><?php print $email1 ?></h3>
-                                    </a>
-
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pt-4 pt-lg-0">
-                        <!-- Contact Box -->
-                        <div class="contact-box text-center">
-                            <!-- Contact Form -->
-                            <?php
+            <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+                <!-- Contact Box -->
+                <div class="contact-box text-center">
+                    <!-- Contact Form -->
+                    <?php
            $status = "OK"; //initial status
 $msg="";
            if(ISSET($_POST['save'])){
@@ -240,60 +309,70 @@ $result= mail($recipient, $subject, $formcontent);
           }
              }
              ?>
-<?php
+                    <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST')
 						{
 						print $errormsg;
 						}
    ?>
 
-<form action="" method="post" enctype="multipart/form-data">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" placeholder="Name" required="required">
-                                        </div>
-
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="phone" placeholder="Phone" required="required">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="message" placeholder="Message" required="required"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-bordered active btn-block mt-3" name="save"><span class="text-white pr-3"><i class="fas fa-paper-plane"></i></span>Send Message</button>
-                                    </div>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Name"
+                                        required="required">
                                 </div>
-                            </form>
-                            <p class="form-message"></p>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Email"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="phone" placeholder="Phone"
+                                        required="required">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" placeholder="Message"
+                                        required="required"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-bordered active btn-block mt-3" name="save"><span
+                                        class="text-white pr-3"><i class="fas fa-paper-plane"></i></span>Send
+                                    Message</button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
+                    <p class="form-message"></p>
                 </div>
             </div>
-        </section>
-        <!--====== Contact Area End ======-->
+        </div>
+    </div>
+</section>
+<!--====== Contact Area End ======-->
 
-        <!--====== Call To Action Area Start ======-->
-        <section class="section cta-area bg-overlay ptb_100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
-                        <!-- Section Heading -->
-                        <div class="section-heading text-center m-0">
-                            <h2 class="text-white"><?php print $enquiry_title; ?></h2>
-                            <p class="text-white d-none d-sm-block mt-4"><?php print $enquiry_text; ?></p>
-                            <a href="contact" class="btn btn-bordered-white mt-4">Contact Us</a>
-                        </div>
-                    </div>
+<!--====== Call To Action Area Start ======-->
+<section class="section cta-area bg-overlay ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <!-- Section Heading -->
+                <div class="section-heading text-center m-0">
+                    <h2 class="text-white">
+                        <?php print $enquiry_title; ?>
+                    </h2>
+                    <p class="text-white d-none d-sm-block mt-4">
+                        <?php print $enquiry_text; ?>
+                    </p>
+                    <a href="contact" class="btn btn-bordered-white mt-4">Contact Us</a>
                 </div>
             </div>
-        </section>
-        <!--====== Call To Action Area End ======-->
+        </div>
+    </div>
+</section>
+<!--====== Call To Action Area End ======-->
 
-      <?php include "footer.php"; ?>
+<?php include "footer.php"; ?>
