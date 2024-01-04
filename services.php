@@ -1,23 +1,47 @@
- <?php include "header.php";?>
-        <section class="section breadcrumb-area overlay-dark d-flex align-items-center">
+<?php include "header.php";?>
+<div class="services-image">
+<section class="section breadcrumb-area overlay-dark d-flex align-items-center" 
+<!-- /*changes made in this code*/ -->
+<!-- Your content goes here -->
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content text-center">
-                            <h2 class="text-white text-uppercase mb-3">What we offer</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
+                        <style>
+                .breadcrumb-area {
+                    text-align: centre;
+                     background-image: url("assets/img/bg/kids.jpg") ;
+                     
+                                }
+                        </style>
+                            
+                            <h2 class="text-white text-uppercase mb-3">BE THE CHANGE</h2>
+                            <!-- <ol class="breadcrumb d-flex justify-content-center">
                                 <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
 
-                                <li class="breadcrumb-item text-white active">Our Services</li>
-                            </ol>
+                                <li class="breadcrumb-item text-white active">Internship & Volunteer</li>
+                            </ol> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ***** Breadcrumb Area End ***** -->
+                            </div>
+       <centre><p>
+        Rasheed Foundation is a visionary organization that is committed to improving the lives of children and their families. 
+            At Rasheed Foundation, we strongly believe that sustainable change can only be achieved if members of the civil society actively participate in the development process. 
+            That's why we invite and encourage individuals to volunteer with us and become an integral part of our organization. 
+            By volunteering with Rasheed Foundation, you can be a part of our mission to work towards the welfare of children and their families. 
+            As a volunteer, you will carry the ideals of our organization within you and help spread the message to society.
+            Your efforts will help sensitize people towards our cause and make a significant impact on the lives of those in need. 
+            We understand that volunteers are the backbone of every organization, and we highly value their contributions.
+             By volunteering with Rasheed Foundation, you will have the opportunity to serve others, make a difference, and spread smiles. 
+             So, join us in our journey towards creating a better future for children and their families. 
+             Volunteer with Rasheed Foundation and be the change you wish to see in the world.
+             </p></centre>
 
+        <!-- ***** Breadcrumb Area End ***** -->
         <!-- ***** Service Area End ***** -->
          <!-- ***** Service Area End ***** -->
          <section id="service" class="section service-area ptb_150">

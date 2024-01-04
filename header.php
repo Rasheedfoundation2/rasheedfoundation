@@ -55,7 +55,7 @@ $latitude = "$tr[latitude]";
     <title>Think Biz - <?php print $site_title ?></title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/bg/Blue.png">
 
     <!-- ***** All CSS Files ***** -->
 
@@ -78,15 +78,22 @@ $latitude = "$tr[latitude]";
                 <div class="spinner"></div>
                 <!-- Loader -->
                 <div class="loader">
-                    <span data-text-preloader="T" class="animated-letters">T</span>
-                    <span data-text-preloader="h" class="animated-letters">h</span>
-                    <span data-text-preloader="i" class="animated-letters">i</span>
-                    <span data-text-preloader="n" class="animated-letters">n</span>
-                    <span data-text-preloader="k" class="animated-letters">k</span>
+                    <span data-text-preloader="W" class="animated-letters">W</span>
+                    <span data-text-preloader="E" class="animated-letters">E</span>
                     <span>&nbsp;</span>
-                    <span data-text-preloader="B" class="animated-letters">B</span>
-                    <span data-text-preloader="i" class="animated-letters">i</span>
-                    <span data-text-preloader="z" class="animated-letters">z</span>
+                    <span data-text-preloader="C" class="animated-letters">C</span>
+                    <span data-text-preloader="A" class="animated-letters">A</span>
+                    <span data-text-preloader="R" class="animated-letters">R</span>
+                    <span data-text-preloader="E" class="animated-letters">E</span>
+                    <span>&nbsp;</span>
+                    <span data-text-preloader="C" class="animated-letters">C</span>
+                    <span data-text-preloader="H" class="animated-letters">H</span>
+                    <span data-text-preloader="I" class="animated-letters">I</span>
+                    <span data-text-preloader="L" class="animated-letters">L</span>
+                    <span data-text-preloader="D" class="animated-letters">D</span>
+                    <span data-text-preloader="R" class="animated-letters">R</span>
+                    <span data-text-preloader="E" class="animated-letters">E</span>
+                    <span data-text-preloader="N" class="animated-letters">N</span>
                 </div>
                 <p class="fw-5 text-center text-uppercase">Loading</p>
             </div>
