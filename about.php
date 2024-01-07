@@ -165,7 +165,7 @@
    <div style=" float: left;  width: 25%;padding: 20px;height: 500px;">
    <img src="assets/img/about/transparency.gif" alt="Image 1"  style="width: 200px; margin-left: auto; margin-right: auto;display: block;padding: 5px;hight:200;" >
    <h5 style="text-align:center">TRANSPARENCY</h5>
-    <p>Transparency is key to building trust with our stakeholders. We are committed to open communication and providing complete and accurate information about our programs, activities, and finances. This transparency helps us to build strong relationships with our stakeholders, and ensures that we are accountable for our actions.
+    <p>Transparency is key to building  with our stakeholders. We are committed to open communication and providing complete and accurate information about our programs, activities, and finances. This transparency helps us to build strong relationships with our stakeholders, and ensures that we are accountable for our actions.
 
 </p>
   </div>
@@ -256,7 +256,7 @@
                                     <a class="d-none d-sm-block my-2" href="mailto:<?php print $email1 ?>">
                                         <h3><?php print $email1 ?></h3>
                                     </a>
-                                    <a class="d-block d-sm-none my-2" href="mailto:<?php print $email1 ?>">
+                                    <a class="d-block d-sm-none my-2"  href="mailto:<?php print $email1 ?>">
                                         <h3><?php print $email1 ?></h3>
                                     </a>
 
