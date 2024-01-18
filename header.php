@@ -52,7 +52,7 @@ $latitude = "$tr[latitude]";
     $follow_text = "$r[follow_text]";
     ?>
     <!-- Title  -->
-    <title>Think Biz - <?php print $site_title ?></title>
+    <title>Rasheed Foundation - <?php print $site_title ?></title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/bg/Blue.png">
@@ -142,8 +142,8 @@ $latitude = "$tr[latitude]";
                     ?>
 
                     <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-regular" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="brand-logo">
-                        <img class="navbar-brand-sticky" src="dashboard/uploads/logo/<?php print $ufile ?>" alt="sticky brand-logo">
+                        <img class="navbar-brand-regular" src="dashboard/uploads/logo/"<?php print $ufile ?>" alt="brand-logo">
+                        <img class="navbar-brand-sticky" src="dashboard/uploads/logo/"<?php print $ufile ?>" alt="sticky brand-logo">
                     </a>
                     <div class="ml-auto"></div>
                     <!-- Navbar -->
@@ -156,7 +156,7 @@ $latitude = "$tr[latitude]";
                             <a href="about" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="services" class="nav-link">Services</a>
+                            <a href="services" class="nav-link">Internship</a>
                         </li>
                         <li class="nav-item">
                             <a href="portfolio" class="nav-link">Portfolio</a>

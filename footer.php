@@ -46,7 +46,7 @@ print "
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Footer Title -->
-                                <h3 class="footer-title text-uppercase mb-2">Follow Us</h3>
+                                <h3 class="footer-title text-uppercase mb-2">Address</h3>
                                 <p class="mb-2"><?php print $follow_text ?></p>
                                 <!-- Social Icons -->
                                 <ul class="social-icons list-inline pt-2">
