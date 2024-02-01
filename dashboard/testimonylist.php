@@ -63,7 +63,9 @@ while($ro = mysqli_fetch_array($r123))
 
 
           <td>
-				  <img src='uploads/testimony/$ufile' alt='img' style='max-height:50px;'>
+				//   <img src='uploads/testimony/$ufile' alt='img' style='max-height:50px;'>
+                //   <img src='uploads/testimony/$ufile' alt='img' ;'>
+                <img src='uploads/testimony/$ufile' alt='img' style='max-height:50px; border-radius: 50%;'>
 				  </td>
 <td>
 				  $name
