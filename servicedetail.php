@@ -9,6 +9,13 @@ $todo= mysqli_real_escape_string($con,$_GET["id"]);
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content d-flex flex-column align-items-center text-center">
+                        <style>
+                .breadcrumb-area {
+                    text-align: centre;
+                     background-image: url("assets/img/internship/serrvice_detail.jpeg") ;
+                     
+                                }
+                        </style>
                             <h2 class="text-white text-uppercase mb-3">Service Details</h2>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
