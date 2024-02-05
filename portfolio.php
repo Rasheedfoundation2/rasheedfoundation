@@ -7,11 +7,6 @@
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content text-center">
                             <h2 class="text-white text-uppercase mb-3">Small Step Big Impact</h2>
-                            <!-- <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html"></a></li>
-
-                                <li class="breadcrumb-item text-white active"></li>
-                            </ol> -->
                         </div>
                     </div>
                 </div>

@@ -1,27 +1,14 @@
 <?php include "header.php";?>
 <div class="services-image">
-<section class="section breadcrumb-area overlay-dark d-flex align-items-center" 
+<section class="section breadcrumb-area overlay-dark d-flex align-items-center">
 
 <!-- Your content goes here -->
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                        <style>
-                .breadcrumb-area {
-                    text-align: centre;
-                     background-image: url("assets/img/internship/kid.jpg") ;
-                     
-                                }
-                        </style>
-                            
-                            <h2 class="text-white text-uppercase mb-3">BE THE CHANGE</h2>
-                            <!-- <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
-
-                                <li class="breadcrumb-item text-white active">Internship & Volunteer</li>
-                            </ol> -->
+                        <div class="breadcrumb-content text-center">                          
+                            <h2 class="text-white text-uppercase mb-3">BE THE CHANGE</h2> 
                         </div>
                     </div>
                 </div>
@@ -41,12 +28,7 @@
              Volunteer with Rasheed Foundation and be the change you wish to see in the world.
             </centre>
         <!-- ** Breadcrumb Area End ** -->
-   
-
-        <!-- ** Service Area End ** -->
-         
-        <!-- ** Service Area End ** -->
-        
+          
         <h1><center> RECENT ACTIVITIES</center></h1>
         <div class="text-box">
         <center>Donating groceries and eatables to the poor and needy can have a significant impact on their lives. 
@@ -89,9 +71,7 @@
                         leaving them vulnerable to illness, injury, and other health challenges.</p></centre>
     </div>
                         
-
-        <!-- ** Service Area End ** --> 
-        
+      
       
         <div class="about-thumb text-center">        
         <h1>OUR VOLUNTEER</h1>
@@ -117,75 +97,6 @@ Furthermore, remote volunteering can be a great way to gain valuable experience 
 learn new skills, and make meaningful connections that can help you advance your career.</center>
     </div>
         
-<!-- ** Review Area Start **-->
-
-
-                    
-                        <!-- Section Heading -->
-
-
-                        <!-- <div class="section-heading text-center">
-                            <h2 class="text-white"><?php print $test_title; ?></h2>
-                            <p class="text-white d-none d-sm-block mt-4"><?php print $test_text;?></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    Client Reviews
-                    <div class="client-reviews owl-carousel">
-                        Single Review
-
-
-
-                         <!-- <?php
-// 				   $q="SELECT * FROM  testimony ORDER BY id DESC LIMIT 6";
-
-
-//  $r123 = mysqli_query($con,$q);
-
-// while($ro = mysqli_fetch_array($r123))
-// {
-
-// 	$name="$ro[name]";
-// 	$position="$ro[position]";
-//     $message="$ro[message]";
-//     $ufile="$ro[ufile]"; -->
-
-// print "
-
-// <div class='single-review p-5'>
-// <!-- Review Content -->
-// <div class='review-content'>
-//     <!-- Review Text -->
-//     <div class='review-text'>
-//         <p>$message</p>
-//     </div>
-//     <!-- Quotation Icon -->
-
-// </div>
-// <!-- Reviewer -->
-// <div class='reviewer media mt-3'>
-//     <!-- Reviewer Thumb -->
-//     <div class='reviewer-thumb'>
-//         <img class='avatar-lg radius-100' src='dashboard/uploads/testimony/$ufile' alt='img'>
-//     </div>
-//     <!-- Reviewer Media -->
-//     <div class='reviewer-meta media-body align-self-center ml-4'>
-//         <h5 class='reviewer-name color-primary mb-2'>$name</h5>
-//         <h6 class='text-secondary fw-6'>$position</h6>
-//     </div>
-// </div>
-// </div> -->
-
-
-// ";
-// }
-// ?>
-//                     </div>
-//                 </div>
-//             </div>
-//         </section>
-//         <!-- ** Review Area End ** -->
 <style>
 
     .text {
@@ -537,31 +448,7 @@ Overall, volunteering at a remote help line is an attractive option for those wh
 
                         $errormsg = ""; // Initialize error message
 
-                        // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                        //     $name = mysqli_real_escape_string($con, $_POST['name']);
-                        //     $email = mysqli_real_escape_string($con, $_POST['email']);
-                        //     $phone = mysqli_real_escape_string($con, $_POST['phone']);
-                        //     $message = mysqli_real_escape_string($con, $_POST['message']);
-
-                        //     // Perform form validation
-                        //     if (strlen($name) < 5 || strlen($message) < 10 || strlen($phone) < 8) {
-                        //         $errormsg = "Please fill in all required fields correctly.";
-                        //     } else {
-                        //         // Insert data into the database
-                        //         $query = "INSERT INTO contact_form (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
-
-                        //         if ($con->query($query) === TRUE) {
-                        //             $successMsg = "Enquiry Sent Successfully. We shall get back to you ASAP.";
-                        //         } else {
-                        //             $errormsg = "Error: " . $query . "<br>" . $con->error;
-                        //         }
-                        //     }
-                        // }
-                        
-
-
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = mysqli_real_escape_string($con, $_POST['name']);
    echo "$name";
     $email = mysqli_real_escape_string($con, $_POST['email']);
@@ -668,21 +555,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                         <!--==== contact area end =====-->
 
-        <!--====== Call To Action Area Start ======-->
-        <!-- <section class="section cta-area bg-overlay ptb_100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
-                        <Section Heading -->
-                        <!-- <div class="section-heading text-center m-0">
-                            <h2 class="text-white"><?php print $enquiry_title; ?></h2>
-                            <p class="text-white d-none d-sm-block mt-4"><?php print $enquiry_text; ?></p>
-                            <a href="contact" class="btn btn-bordered-white mt-4">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--====== Call To Action Area End ======-->
-        </section>
+                </section>
       <?php include "footer.php"; ?>

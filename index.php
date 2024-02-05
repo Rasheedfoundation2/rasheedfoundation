@@ -82,15 +82,6 @@
 </section>
 <!-- ***** Promo Area End ***** -->
 
-<!-- ***** Content Area Start ***** -->
-
-<!-- ***** Content Area End ***** -->
-
-<!-- ***** Content Area Start ***** -->
-
-<!-- ***** Content Area End ***** -->
-
-<!-- ***** Service Area End ***** -->
 <section id="service" class="section service-area bg-grey ptb_150">
     <!-- Shape Top -->
     <div class="shape shape-top">
@@ -276,9 +267,6 @@
     </div>
 </section>
 
-<!-- ***** Price Plan Area Start ***** -->
-
-<!-- ***** Price Plan Area End ***** -->
 
 <!-- ***** Review Area Start ***** -->
 <section id="review" class="section review-area bg-overlay ptb_100">
