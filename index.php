@@ -18,8 +18,7 @@
                     <p class="text-white my-4"><?php print $stext ?></p>
                     <!-- Buttons -->
                     <div class="button-group">
-                        <!-- <a href="#" class="btn btn-bordered-white">Start a Project</a> -->
-                        <a href="#" class="btn btn-bordered-white d-none d-sm-inline-block">Contact Us</a>
+                       <a href="#" class="btn btn-bordered-white d-none d-sm-inline-block">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -80,15 +79,6 @@
         </div>
     </div>
 </section>
-<!-- ***** Promo Area End ***** -->
-
-<!-- ***** Content Area Start ***** -->
-
-<!-- ***** Content Area End ***** -->
-
-<!-- ***** Content Area Start ***** -->
-
-<!-- ***** Content Area End ***** -->
 
 <!-- ***** Service Area End ***** -->
 <section id="service" class="section service-area bg-grey ptb_150">
@@ -275,10 +265,6 @@
         </div>
     </div>
 </section>
-
-<!-- ***** Price Plan Area Start ***** -->
-
-<!-- ***** Price Plan Area End ***** -->
 
 <!-- ***** Review Area Start ***** -->
 <section id="review" class="section review-area bg-overlay ptb_100">

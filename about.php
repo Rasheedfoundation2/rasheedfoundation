@@ -284,13 +284,6 @@ Together, we can grown and share our passion for making a positive impact on the
 
         <!-- ***** About Area End ***** -->
 
-
-        <!-- ***** Our Goal Area End ***** -->
-
-        <!-- ***** Team Area Start ***** -->
-
-        <!-- ***** Team Area End ***** -->
-
         <!--====== Contact Area Start ======-->
         <section id="contact" class="contact-area ptb_100">
             <div class="container">

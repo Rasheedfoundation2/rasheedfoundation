@@ -57,13 +57,6 @@ $todo= mysqli_real_escape_string($con,$_GET["id"]);
         </section>
         <!-- ***** About Area End ***** -->
 
-
-        <!-- ***** Our Goal Area End ***** -->
-
-        <!-- ***** Team Area Start ***** -->
-
-        <!-- ***** Team Area End ***** -->
-
         <!--====== Contact Area Start ======-->
         <section id="contact" class="contact-area ptb_100">
             <div class="container">

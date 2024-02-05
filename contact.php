@@ -3,8 +3,6 @@
         <!-- ** Breadcrumb Area Start ** -->
         <div class="contact-image">
         <section class="section breadcrumb-area overlay-dark d-flex align-items-center">
-        <!-- <section class="section breadcrumb-area overlay-dark d-flex align-items-center" style="background-image: url('../img/bg/contactusbg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">    -->
-        <!-- <section class="section breadcrumb-area overlay-dark d-flex align-items-center" style="background-image: url('../img/bg/contactusbg.jpg');"> -->
         <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -24,11 +22,7 @@
 
         </div>
         
-       
-        
-
-        <!-- ** Breadcrumb Area End ** -->
-
+       <!-- ** Breadcrumb Area End ** -->
 
         <!--====== Contact Area Start ======-->
         <section id="contact" class="contact-area ptb_100">
@@ -149,37 +143,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 						print $errormsg;
 						}
    ?>
-<!-- 
-<form action="" method="post" enctype="multipart/form-data">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" placeholder="Name" required="required">
-                                        </div>
-
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="phone" placeholder="Phone" required="required">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="message" placeholder="Message" required="required"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-bordered active btn-block mt-3" name="save"><span class="text-white pr-3"><i class="fas fa-paper-plane"></i></span>Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="form-message"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <!--====== Contact Area End ======-->
 
 

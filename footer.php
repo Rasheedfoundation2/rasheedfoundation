@@ -94,10 +94,6 @@ print "
         </footer>
         <!--====== Footer Area End ======-->
 
-        <!--====== Modal Search Area Start ======-->
-
-        <!--====== Modal Search Area End ======-->
-
         <!--====== Modal Responsive Menu Area Start ======-->
         <div id="menu" class="modal fade p-0">
             <div class="modal-dialog dialog-animated">

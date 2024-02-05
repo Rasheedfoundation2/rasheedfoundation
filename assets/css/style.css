@@ -683,7 +683,7 @@ img {
     background: rgba(245, 242, 242, 0) url("../img/welcome/student.jpg") no-repeat fixed center center / cover !important;
 }
 .services-image{
-    background: rgba(245, 242, 242, 0) url("../img/welcome/thumb_1.png") no-repeat fixed center center / cover !important;
+    background: rgba(245, 242, 242, 0) url("../img/welcome/kid.jpg") no-repeat fixed center center / cover !important;
 }
 .welcome-area {
     background: rgba(0,0,0,0) url("../img/welcome/group.jpg") no-repeat fixed center center / cover;
@@ -1906,6 +1906,16 @@ body.dark,
     -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.08);
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ******************************
 :: 12.0 PORTFOLIO AREA CSS

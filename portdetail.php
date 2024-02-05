@@ -10,12 +10,7 @@ $todo= mysqli_real_escape_string($con,$_GET["id"]);
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content d-flex flex-column align-items-center text-center">
                             <h2 class="text-white text-uppercase mb-3">SMALL STEPS BIG IMPACTS</h2>
-                            <!-- <ol class="breadcrumb"> -->
-                                <!-- <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html"></a></li>
-
-                                <li class="breadcrumb-item text-white active"></li>
-                            </ol> -->
-                        </div>
+                                                   </div>
                     </div>
                 </div>
             </div>
@@ -55,14 +50,7 @@ $todo= mysqli_real_escape_string($con,$_GET["id"]);
             </div>
         </section>
         <!-- ***** About Area End ***** -->
-
-
-        <!-- ***** Our Goal Area End ***** -->
-
-        <!-- ***** Team Area Start ***** -->
-
-        <!-- ***** Team Area End ***** -->
-
+ 
         <!--====== Contact Area Start ======-->
         <section id="contact" class="contact-area ptb_100">
             <div class="container">
