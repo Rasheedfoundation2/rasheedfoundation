@@ -3,25 +3,22 @@ include "header.php";
 $todo= mysqli_real_escape_string($con,$_GET["id"]);
 ?>
         <!-- ***** Breadcrumb Area Start ***** -->
+        <div class="services-image">
         <section class="section breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content d-flex flex-column align-items-center text-center">
-                            <h2 class="text-white text-uppercase mb-3">Service Details</h2>
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
-
-                                <li class="breadcrumb-item text-white active">Service</li>
-                            </ol>
+                            <h2 class="text-white text-uppercase mb-3">recover, rebound, reimagine</h2>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- ***** Breadcrumb Area End ***** -->
-
+        </div>
 
         <?php
     $rt=mysqli_query($con,"SELECT * FROM service where id='$todo'");

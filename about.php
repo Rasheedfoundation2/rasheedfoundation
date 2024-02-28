@@ -23,7 +23,7 @@
         <!-- ***** Breadcrumb Area End ***** -->
 
         <!-- ***** About Area Start ***** -->
-        <section class="section about-area ptb_100">
+        <!-- <section class="section about-area ptb_100">
             <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -66,7 +66,7 @@
                 
             </div>
             </div>
-        </section>
+        </section> -->
         <section class="section about-area ptb_100">
             <div class="container">
                 <div class="row justify-content-between align-items-center">

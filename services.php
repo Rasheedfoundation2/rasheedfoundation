@@ -15,7 +15,7 @@
             </div>
         </section>
                             </div>
-       <centre>
+       <div style= "width: 1000px; margin: 20px auto; " >
         Rasheed Foundation is a visionary organization that is committed to improving the lives of children and their families. 
             At Rasheed Foundation, we strongly believe that sustainable change can only be achieved if members of the civil society actively participate in the development process. 
             That's why we invite and encourage individuals to volunteer with us and become an integral part of our organization. 
@@ -26,7 +26,7 @@
              By volunteering with Rasheed Foundation, you will have the opportunity to serve others, make a difference, and spread smiles. 
              So, join us in our journey towards creating a better future for children and their families. 
              Volunteer with Rasheed Foundation and be the change you wish to see in the world.
-            </centre>
+            </div>
         <!-- ** Breadcrumb Area End ** -->
           
         <h1><center> RECENT ACTIVITIES</center></h1>
